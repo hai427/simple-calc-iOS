@@ -99,18 +99,17 @@
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LZ2-xP-GHV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcQ-CJ-fgf">
-                                <frame key="frameInset" minX="89" minY="598" width="96" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXU-jP-H9r">
+                                <frame key="frameInset" minY="598" width="98" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.85891321864815962" green="0.82578842318504686" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="0"/>
+                                <color key="backgroundColor" red="0.81701602699777731" green="1" blue="0.89436598804875445" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Clear"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SJk-Tf-gz7"/>
-                                    <action selector="pressed0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JR5-Oq-Aro"/>
+                                    <action selector="clearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qSY-fK-k7S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQP-SA-Yga">
-                                <frame key="frameInset" minX="184" minY="598" width="96" height="70"/>
+                                <frame key="frameInset" minX="228" minY="598" width="52" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.81701602699777731" green="1" blue="0.89436598804875445" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="%"/>
@@ -196,20 +195,30 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New calculator, who dis?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTo-UZ-mx1">
-                                <frame key="frameInset" minY="28" width="375" height="69"/>
+                                <frame key="frameInset" minY="29" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.66475437993243003" blue="0.95615927563517422" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXU-jP-H9r">
-                                <frame key="frameInset" minY="598" width="92" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4f6-Fl-tvJ">
+                                <frame key="frameInset" minX="175" minY="598" width="54" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.81701602699777731" green="1" blue="0.89436598804875445" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Clear"/>
+                                <color key="backgroundColor" red="0.81701602699999998" green="1" blue="0.894365988" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="."/>
                                 <connections>
-                                    <action selector="clearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qSY-fK-k7S"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eRT-WC-937"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcQ-CJ-fgf">
+                                <frame key="frameInset" minX="94" minY="597" width="85" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85891321864815962" green="0.82578842318504686" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SJk-Tf-gz7"/>
+                                    <action selector="pressed0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JR5-Oq-Aro"/>
                                 </connections>
                             </button>
                         </subviews>

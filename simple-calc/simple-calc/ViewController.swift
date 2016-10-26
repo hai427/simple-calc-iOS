@@ -29,9 +29,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
 
     @IBAction func numberPressed(_ sender: UIButton) {
-        if resultLabel.text != "" {
-            resultLabel.text = ""
-        }
         if operationEntered {
             resultLabel.text = ""
             operationEntered = false
