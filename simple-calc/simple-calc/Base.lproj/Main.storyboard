@@ -218,7 +218,6 @@
                                 <state key="normal" title="0"/>
                                 <connections>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SJk-Tf-gz7"/>
-                                    <action selector="pressed0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JR5-Oq-Aro"/>
                                 </connections>
                             </button>
                         </subviews>
